@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PrintScheduler.cs" />
+    <Compile Include="Mailbox.cs" />
+    <Compile Include="LargestSubsequence.cs" />
+    <Compile Include="SortingSubset.cs" />
+    <Compile Include="MovingAvg.cs" />
     <Compile Include="HuffmanDecoding.cs" />
     <Compile Include="LexMaxReplace.cs" />
     <Compile Include="Program.cs" />

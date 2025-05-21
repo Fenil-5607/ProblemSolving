@@ -11,26 +11,26 @@ namespace problem_solving
 
         public static void ExecuteExample()
         {
-            string result = Get("abb", "c");
+            string result = Get("xldyzmsrrwzwaofkcxwehgvtrsximxgdqrhjthkgfucrjdvwlr", "xfpidmmilhdfzypbguentqcojivertdhshstkcysydgcwuwhlk" );
             Console.WriteLine(result);
         }
 
         public static string Get(string s, string t)
         {
-            char[] sArr = s.ToCharArray();
-            char[] tArr = t.OrderByDescending(c => c).ToArray();
+            char[] sArray = s.ToCharArray();
+            char[] tArray = t.OrderByDescending(c => c).ToArray();
             int j = 0;
 
-            for (int i = 0; i < sArr.Length && j < tArr.Length; i++)
+            for (int i = 0; i < sArray.Length && j < tArray.Length; i++)
             {
-                if (tArr[j] > sArr[i])
+                if (tArray[j] > sArray[i])
                 {
-                    sArr[i] = tArr[j];
+                    sArray[i] = tArray[j];
                     j++;
                 }
             }
 
-            return new string(sArr);
+            return new string(sArray);
         }
     }
 }
