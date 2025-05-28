@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Islands.cs" />
+    <Compile Include="MysticAndCandiesEasy.cs" />
+    <Compile Include="MaximumBalances.cs" />
+    <Compile Include="TurningLightOn.cs" />
+    <Compile Include="PalindromeDecoding.cs" />
     <Compile Include="PrintScheduler.cs" />
     <Compile Include="Mailbox.cs" />
     <Compile Include="LargestSubsequence.cs" />
